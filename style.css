@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer{
+    height: 100vh;
+    width: 100vw;
+    display: inline-block;
+    /* border: 4px solid red; */
+}
+
+.TopParent{
+    height: 90%;
+    width: 100%;
+    background-image: url('HERO BG.png');
+}
+
+.TopParent img {
+    width: 100%;
+    height: 100%;
+}
+
+.TopParentTop{
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+.TopParentTopLeft{
+    height: 100%;
+    width: 40%;
+    /* border: 2px solid black; */
+}
+
+.TopParentTopLeft img{
+    height: 70%;
+    width: 8%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.TopParentTopRight{
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.TopParentBottom{
+    height: 90%;
+    width: 100%;
+    /* border: 2px solid black; */
+    /* display: flex;
+    justify-content: center; */
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.tamplate{
+    height: 90%;
+    width: 25%;
+    /* border: 2px solid black; */
+    background-color: #fff;
+    padding-top: 30px;
+}
+
+.paragraph{
+    height: 30%;
+    width: 100%;
+}
+
+.form{
+    height: 70%;
+    width: 100%;
+}
+
+.BottomParent{
+    height: 400%;
+    width: 100%;
+    /* border: 4px solid darkblue; */
+}
+
+#Input{
+    height: 10%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+/* h2{
+    padding-left: 5%;
+} */
+
+button h3{
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 12%;
+    width: 30%;
+    border-radius: 6px;
+    background-color: aqua;
+}
+
+
+.child1{
+    height: 25%;
+    width: 100%;
+    /* border: 4px solid goldenrod; */
+}
+
+.topchild{
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid black; */
+    /* display: flex; */
+}
+
+.topchild1{
+    height: 40%;
+    width: 100%;
+    /* border: 2px solid red; */
+    /* display: flex; */
+}
+
+.bottomchild1{
+    width: 33.33%;
+    height: 50%;
+    /* border: 2px solid green; */
+    display: flex;
+    border-radius: 10px;
+
+}
+
+.topchild2{
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.topchild2top{
+    width: 33.33%;
+    height: 100%;
+    /* border: 2px solid purple; */
+    display: flex;
+}
+
+.topchild2topleft1 img{
+    width: 100%;
+    height: 100%;
+    /* background-image: url('Rectangle 4.png'); */
+    /* border-radius: 5px; */
+}
+
+.topchild2topright1 h2{
+    padding-top: 28px;
+    padding-left: 25px;
+}
+
+.bottomchild{
+    height: 70%;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.bottomchildTop{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+.bottomchildBottom{
+    height: 70%;
+    width: 100%;
+    background-image: url('Rectangle 5.png');
+}
+
+.child2{
+    height: 18%;
+    width: 100%;
+    /* border: 4px solid goldenrod; */
+}
+
+.child2top{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid darkgreen; */
+}
+
+.child2bottom{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid tomato; */
+}
+
+.child2bottom1{
+    height: 100%;
+    width: 16%;
+    /* border: 2px solid darkslategrey; */
+}
+
+/* .child2bottom1top{
+    height: 60%;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.child2bottom1top img{
+    height: 100%;
+    width: 100%;
+}
+
+.child2bottom1bottom{
+    height: 40%;
+    width: 100%;
+    border: 2px solid black;
+} */
+
+.child2bottom{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+.child3{
+    height: 30%;
+    width: 100%;
+    /* border: 4px solid goldenrod; */
+}
+
+
+.child3top{
+    height: 50%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+
+.child3top1{
+    height: 70%;
+    width: 19.3%;
+    /* border: 2px solid black; */
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+
+.child3toptop{
+    height: 70%;
+    width: 100%;
+    /* border: 2px solid blue; */
+}
+
+.child3topbottom{
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid blue; */
+}
+
+.child3topbottom button{
+    margin-top: 25px;
+    height: 35px;
+    width: 120px;
+}
+
+.jaiho{
+    margin-top: 10px;
+}
+
+.child3bottom{
+    height: 50%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* .child3top{
+    height: 10%;
+    width: 100%;
+    border: 2px solid red;
+}
+
+.child3allbottom{
+    height: 90%;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .child3bottom11{
+    height: 50%;
+    width: 100%;
+}
+
+.child3bottom12{
+    height: 50%;
+    width: 100%;
+} */
+
+/* .child3 h2{
+    padding-top: 20px;
+} */
+
+/* 
+.child3bottom1{
+    height: 100%;
+    width: 24%;
+    border: 2px solid black;
+    display: flex;
+} */
+
+/* .child3bottom1top{
+    height: 50%;
+    width: 24%;
+    border: 2px solid red;
+}
+
+.child3bottom1bottom{
+    height: 30%;
+    width: 100%;
+    border: 2px solid red;
+} */
+
+/* .child3bottom1top img{
+    height: 98%;
+    width: 100;
+} */
+
+/* .child3bottom1bottom h4{
+    height: 20%;
+    width: 35%;
+} */
+
+
+button h4{
+    height: 40px;
+    width: 120px;
+    padding-top: 12px;
+    /* border: 4px solid black; */
+    /* background-color: #fff; */
+    /* margin-block: 2px solid black; */
+}
+
+
+
+
+.child4{
+    height: 18%;
+    width: 100%;
+    /* border: 4px solid goldenrod; */
+    /* display: flex; */
+}
+
+
+.child4top{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid darkgreen; */
+}
+
+.child4bottom{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid tomato; */
+}
+
+.child4bottom1{
+    height: 100%;
+    width: 16%;
+    /* border: 2px solid darkslategrey; */
+}
+
+/* .child2bottom1top{
+    height: 60%;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.child2bottom1top img{
+    height: 100%;
+    width: 100%;
+}
+
+.child2bottom1bottom{
+    height: 40%;
+    width: 100%;
+    border: 2px solid black;
+} */
+
+.child4bottom{
+    display: flex;
+}
+
+
+
+
+
+.child5{
+    height: 20%;
+    width: 100%;
+    /* border: 4px solid goldenrod; */
+}
+
+.child5top{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.child5bottom{
+    height: 60%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.child5bottom1{
+    height: 100%;
+    width: 32%;
+    /* border: 2px solid black; */
+}
+
+.child5bottomtop1{
+    height: 70%;
+    width: 80%;
+    /* border: 2px solid black; */
+    background-image: url('007.png');
+}
+
+.child5bottombottom{
+    height: 20%;
+    width: 80%;
+    /* border: 2px solid black; */
+}
+
+.child5bottom2{
+    height: 100%;
+    width: 32%;
+    /* border: 2px solid black; */
+}
+
+.child5bottomtop2{
+    height: 70%;
+    width: 80%;
+    /* border: 2px solid black; */
+    background-image: url('008.png');
+}
+
+.child5bottom3{
+    height: 100%;
+    width: 32%;
+}
+
+
+.child5bottomtop3{
+    height: 70%;
+    width: 80%;
+    /* border: 2px solid black; */
+    background-image: url('009.png');
+}
+
+.hisaab{
+    color: red;
+    text-align: bold;
+}
+
+
+.logokahisaab{
+    padding-top: 100px;
+    padding-left: 170px;
+}
+
+
+.logokahisaab2{
+    padding-top: 130px;
+    padding-left: 700px;
+    align-items: bold;
+}
+
